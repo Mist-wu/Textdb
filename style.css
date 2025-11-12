@@ -1,0 +1,27 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1e1e1e;
+    /* 深色背景 */
+}
+
+#editor {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    /* 让 padding 不会撑开元素 */
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 20px;
+    font-family: 'Menlo', 'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #1e1e1e;
+    /* 深色背景 */
+    color: #d4d4d4;
+    /* 浅灰色文字 */
+}
